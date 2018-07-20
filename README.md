@@ -20,7 +20,7 @@ define('DEV_DEBUG', false);
 define('DEBUG_LOG', false);
 
 
-如果安装有 nodejs  可以在开启日志输入 DEBUG_LOG 的情况下 用命令行运行
+如果安装有 nodejs  可以在开启日志输出 DEBUG_LOG 的情况下 用命令行运行
 node debug.js 查看调试输出日志。
 
 
