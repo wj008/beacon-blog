@@ -32,3 +32,7 @@ node debug.js 查看调试输出日志。
 
 注意 该程序 需要 url 重写功能的支持。
 可以参考Thinkphp 的重写方式。
+
+例子：
+
+![](https://raw.githubusercontent.com/wj008/beacon-blog/master/demo.png)
