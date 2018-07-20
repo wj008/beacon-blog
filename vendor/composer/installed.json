@@ -1,0 +1,80 @@
+[
+    {
+        "name": "wj008/beacon",
+        "version": "1.2.5",
+        "version_normalized": "1.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wj008t/php-beacon.git",
+            "reference": "64eb9611672c21ea8790251f4092032bb4a5d79a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wj008t/php-beacon/zipball/64eb9611672c21ea8790251f4092032bb4a5d79a",
+            "reference": "64eb9611672c21ea8790251f4092032bb4a5d79a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "wj008/sdopx": "^1.0"
+        },
+        "time": "2018-07-10T18:49:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "beacon\\": "/core",
+                "beacon\\widget\\": "/widget"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "wj008",
+                "email": "26029682@qq.com"
+            }
+        ],
+        "description": "beacon  framework kernel of PHP"
+    },
+    {
+        "name": "wj008/sdopx",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wj008/php-sdopx.git",
+            "reference": "3284a78edb48cab0ee7de544be36ed5966109c0e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wj008/php-sdopx/zipball/3284a78edb48cab0ee7de544be36ed5966109c0e",
+            "reference": "3284a78edb48cab0ee7de544be36ed5966109c0e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2018-07-19T21:43:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "sdopx\\": "/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "wj008",
+                "email": "26029682@qq.com"
+            }
+        ],
+        "description": "sdopx Embedded php templates"
+    }
+]
